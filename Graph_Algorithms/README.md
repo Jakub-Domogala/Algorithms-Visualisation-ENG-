@@ -3,7 +3,7 @@
 This algorithm shows how A-star Algorithm finds it's shortest path between two points.
 ### Usage
 You set start and end points (left mouse button) and after that draw walls on the grid(also hold or click left mouse button). You can use right mouse button to erase objects. After that hit space and wait for the algorithm to find it's shortest path.
-Grid scale adjustable by changing 'ROWS' variable
+Grid scale adjustable by changing 'ROWS' variable at the beggining of main function.
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/78169141/160628428-da72e4ec-aa12-4d29-8bea-b31a2d801f2b.gif)
 
