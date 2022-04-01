@@ -47,7 +47,7 @@ def draw(draw_info, algo_name, ascending):
     controls = draw_info.FONT.render("R - reset | SPACE - start sort | A - ascending | D - descending", 1, draw_info.BLACK)
     draw_info.window.blit(controls, ( draw_info.width/2 - controls.get_width()/2, 65))
 
-    sorting = draw_info.FONT.render("I - insertion | B - bubble | C - count | Q - quick", 1, draw_info.BLACK)
+    sorting = draw_info.FONT.render("I - insertion | B - bubble | C - count | Q - quick | M - merge", 1, draw_info.BLACK)
     draw_info.window.blit(sorting, ( draw_info.width/2 - sorting.get_width()/2, 95))
 
     draw_list(draw_info)
